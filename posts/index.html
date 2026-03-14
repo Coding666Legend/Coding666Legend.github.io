@@ -141,7 +141,11 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>How To Setup and Start Blog on Operator’s System.</p>
+    <p>How To Setup and Start Blog on Operator’s System. Step 1: Create Site (one-time-Process) hugo new my-blog-site cd my-blog-site git init git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+edit hugo.toml: baseURL = https:localhost:1313/ languageCode = &#34;en-us&#34; title = &#34;my-own-blog&#34; theme = &#34;PaperMod&#34;
+Step 2: Create a Post hugo new posts/my-first-blog.md edit content/posts/my-first-blog.md at the top, change: draft: false Start Writing Your Content Now…
+Step 3: Run Local Sever hugo server open http:localhost:1313/ this is development mode, you haven’t yet publicly deployed , Press Ctrl&#43;C to stop the server
+...</p>
   </div>
   <footer class="entry-footer"><span title='2026-03-14 06:38:59 +0530 IST'>March 14, 2026</span>&nbsp;·&nbsp;<span>Operator</span></footer>
   <a class="entry-link" aria-label="post link to How to Blog" href="https://coding666legend.github.io/posts/how-to-blog/"></a>
