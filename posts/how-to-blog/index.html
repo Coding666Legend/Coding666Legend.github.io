@@ -159,8 +159,8 @@ this is development mode, you haven&rsquo;t yet publicly deployed , Press Ctrl&#
   "keywords": [
     
   ],
-  "articleBody": "How To Setup and Start Blog on Operator’s System. Step 1: Create Site (one-time-Process) hugo new my-blog-site cd my-blog-site git init git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod edit hugo.toml:\nbaseURL = https:localhost:1313/ languageCode = \"en-us\" title = \"my-own-blog\" theme = \"PaperMod\" Step 2: Create a Post hugo new posts/my-first-blog.md\nedit content/posts/my-first-blog.md\nat the top, change: draft: false\nStart Writing Your Content Now…\nStep 3: Run Local Sever hugo server\nopen http:localhost:1313/\nthis is development mode, you haven’t yet publicly deployed , Press Ctrl+C to stop the server\nStep 4: Generate Production Files run hugo this will generate the production files with in public/\nStep 5: Deploy public/ to Github Pages create a repo on your github account username.github.io\nrun these commands (for first run):\ngit init git add . git commit -m \"commit-message\" git branch -M main git remote add origin git@github.com:/.github.io.git git push -u origin main run these every time you create a new post:\ngit add . git commit -m \"commit-message\" git remote add origin git@github.com:/.github.io.git git branch -M main git push -u origin main ",
-  "wordCount" : "176",
+  "articleBody": "How To Setup and Start Blog on Operator’s System. Step 1: Create Site (one-time-Process) hugo new my-blog-site cd my-blog-site git init git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod edit hugo.toml:\nbaseURL = https:localhost:1313/ languageCode = \"en-us\" title = \"my-own-blog\" theme = \"PaperMod\" Step 2: Create a Post hugo new posts/my-first-blog.md\nedit content/posts/my-first-blog.md\nat the top, change: draft: false\nStart Writing Your Content Now…\nStep 3: Run Local Sever hugo server\nopen http:localhost:1313/\nthis is development mode, you haven’t yet publicly deployed , Press Ctrl+C to stop the server\nStep 4: Generate Production Files run hugo this will generate the production files with in public/\nStep 5: Deploy public/ to Github Pages create a repo on your github account username.github.io\nrun these commands (for first run):\ngit init git add . git commit -m \"commit-message\" git branch -M main git remote add origin git@github.com:/.github.io.git git push -u origin main run these every time you create a new post:\ngit add . git commit -m \"commit-message\" git remote add origin git@github.com:/.github.io.git git branch -M main git push -u origin main Operator’s Tip: if you are using hugo for your blogging purpose\nWhen you are writing something in body in the Markdown file.\nAlways use two spaces to break a line and start writing on the next possible line.\n",
+  "wordCount" : "214",
   "inLanguage": "en",
   "datePublished": "2026-03-14T06:38:59+05:30",
   "dateModified": "2026-03-14T06:38:59+05:30",
@@ -264,7 +264,11 @@ git commit -m &#34;commit-message&#34;
 git remote add origin git@github.com:&lt;git_username&gt;/&lt;git_username&gt;.github.io.git 
 git branch -M main  
 git push -u origin main  
-</code></pre>
+</code></pre><h4 id="operators-tip">Operator&rsquo;s Tip:<a hidden class="anchor" aria-hidden="true" href="#operators-tip">#</a></h4>
+<p><em>if you are using hugo for your blogging purpose</em><br>
+When you are writing something in <code>body</code> in the Markdown file.<br>
+Always use two spaces to break a line and start writing on the next possible line.</p>
+
 
   </div>
 
